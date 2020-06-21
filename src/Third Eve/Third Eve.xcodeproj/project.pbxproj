@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361D8E25235B48C9003A35CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D8E24235B48C9003A35CD /* AppDelegate.swift */; };
+		361D8E27235B48C9003A35CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D8E26235B48C9003A35CD /* SceneDelegate.swift */; };
+		361D8E29235B48C9003A35CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D8E28235B48C9003A35CD /* ViewController.swift */; };
+		361D8E2C235B48C9003A35CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361D8E2A235B48C9003A35CD /* Main.storyboard */; };
+		361D8E2E235B48C9003A35CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361D8E2D235B48C9003A35CD /* Assets.xcassets */; };
+		361D8E31235B48C9003A35CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361D8E2F235B48C9003A35CD /* LaunchScreen.storyboard */; };
+		361D8E39235B4925003A35CD /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 361D8E38235B4925003A35CD /* Resnet50.mlmodel */; };
+		A20504FE3B6FEE94754ED384 /* Pods_Third_Eve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698D559E29D082226703513A /* Pods_Third_Eve.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23482C8B574205AA097DC186 /* Pods-Third Eve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Third Eve.release.xcconfig"; path = "Target Support Files/Pods-Third Eve/Pods-Third Eve.release.xcconfig"; sourceTree = "<group>"; };
+		361D8E21235B48C9003A35CD /* Third Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Third Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361D8E24235B48C9003A35CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361D8E26235B48C9003A35CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		361D8E28235B48C9003A35CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		361D8E2B235B48C9003A35CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		361D8E2D235B48C9003A35CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361D8E30235B48C9003A35CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361D8E32235B48C9003A35CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361D8E38235B4925003A35CD /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = "../../Object Detection/SmartCameraLBTA/SmartCameraLBTA/Resnet50.mlmodel"; sourceTree = "<group>"; };
+		698D559E29D082226703513A /* Pods_Third_Eve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Third_Eve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE8C5099C218C93E4E2D0A7 /* Pods-Third Eve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Third Eve.debug.xcconfig"; path = "Target Support Files/Pods-Third Eve/Pods-Third Eve.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361D8E1E235B48C9003A35CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20504FE3B6FEE94754ED384 /* Pods_Third_Eve.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8C8EDA0D1679F0136FB582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8C5099C218C93E4E2D0A7 /* Pods-Third Eve.debug.xcconfig */,
+				23482C8B574205AA097DC186 /* Pods-Third Eve.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		361D8E18235B48C9003A35CD = {
+			isa = PBXGroup;
+			children = (
+				361D8E23235B48C9003A35CD /* Third Eve */,
+				361D8E22235B48C9003A35CD /* Products */,
+				1E8C8EDA0D1679F0136FB582 /* Pods */,
+				7F23063D9CFE9A5B0A1964A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361D8E22235B48C9003A35CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361D8E21235B48C9003A35CD /* Third Eye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361D8E23235B48C9003A35CD /* Third Eve */ = {
+			isa = PBXGroup;
+			children = (
+				361D8E24235B48C9003A35CD /* AppDelegate.swift */,
+				361D8E26235B48C9003A35CD /* SceneDelegate.swift */,
+				361D8E28235B48C9003A35CD /* ViewController.swift */,
+				361D8E2A235B48C9003A35CD /* Main.storyboard */,
+				361D8E2D235B48C9003A35CD /* Assets.xcassets */,
+				361D8E2F235B48C9003A35CD /* LaunchScreen.storyboard */,
+				361D8E32235B48C9003A35CD /* Info.plist */,
+				361D8E38235B4925003A35CD /* Resnet50.mlmodel */,
+			);
+			path = "Third Eve";
+			sourceTree = "<group>";
+		};
+		7F23063D9CFE9A5B0A1964A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698D559E29D082226703513A /* Pods_Third_Eve.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361D8E20235B48C9003A35CD /* Third Eve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361D8E35235B48C9003A35CD /* Build configuration list for PBXNativeTarget "Third Eve" */;
+			buildPhases = (
+				97E441567F6C1DFD77F8C262 /* [CP] Check Pods Manifest.lock */,
+				361D8E1D235B48C9003A35CD /* Sources */,
+				361D8E1E235B48C9003A35CD /* Frameworks */,
+				361D8E1F235B48C9003A35CD /* Resources */,
+				B4A7CA5F20A3C7D918F41074 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Third Eve";
+			productName = "Third Eve";
+			productReference = 361D8E21235B48C9003A35CD /* Third Eye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361D8E19235B48C9003A35CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Prashuk Ajmera";
+				TargetAttributes = {
+					361D8E20235B48C9003A35CD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 361D8E1C235B48C9003A35CD /* Build configuration list for PBXProject "Third Eve" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361D8E18235B48C9003A35CD;
+			productRefGroup = 361D8E22235B48C9003A35CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361D8E20235B48C9003A35CD /* Third Eve */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361D8E1F235B48C9003A35CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361D8E31235B48C9003A35CD /* LaunchScreen.storyboard in Resources */,
+				361D8E2E235B48C9003A35CD /* Assets.xcassets in Resources */,
+				361D8E2C235B48C9003A35CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97E441567F6C1DFD77F8C262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Third Eve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A7CA5F20A3C7D918F41074 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Third Eve/Pods-Third Eve-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Third Eve/Pods-Third Eve-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Third Eve/Pods-Third Eve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361D8E1D235B48C9003A35CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361D8E29235B48C9003A35CD /* ViewController.swift in Sources */,
+				361D8E25235B48C9003A35CD /* AppDelegate.swift in Sources */,
+				361D8E39235B4925003A35CD /* Resnet50.mlmodel in Sources */,
+				361D8E27235B48C9003A35CD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		361D8E2A235B48C9003A35CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361D8E2B235B48C9003A35CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		361D8E2F235B48C9003A35CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361D8E30235B48C9003A35CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361D8E33235B48C9003A35CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361D8E34235B48C9003A35CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361D8E36235B48C9003A35CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE8C5099C218C93E4E2D0A7 /* Pods-Third Eve.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZF27DQ562;
+				INFOPLIST_FILE = "Third Eve/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bose.Third-Eve";
+				PRODUCT_NAME = "Third Eye";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361D8E37235B48C9003A35CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23482C8B574205AA097DC186 /* Pods-Third Eve.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZF27DQ562;
+				INFOPLIST_FILE = "Third Eve/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bose.Third-Eve";
+				PRODUCT_NAME = "Third Eye";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361D8E1C235B48C9003A35CD /* Build configuration list for PBXProject "Third Eve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361D8E33235B48C9003A35CD /* Debug */,
+				361D8E34235B48C9003A35CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361D8E35235B48C9003A35CD /* Build configuration list for PBXNativeTarget "Third Eve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361D8E36235B48C9003A35CD /* Debug */,
+				361D8E37235B48C9003A35CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361D8E19235B48C9003A35CD /* Project object */;
+}
